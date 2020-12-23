@@ -66,7 +66,7 @@ def zoeken_lid(woord):
             \nNaam: {}\
             \nAchternaam : {}\nEmail :{}\n**********************".format(x[0],x[1],x[2],x[3]))
     else:
-        msgbox("Niks geonden")
+        msgbox("Niks gevonden")
 
 
 

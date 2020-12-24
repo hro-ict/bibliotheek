@@ -362,7 +362,7 @@ def lid_zoeken():
 def mail(mailaddress, tekst,lener):
     message = MIMEMultipart()  
 
-    message["From"] =  "ict1crac@gmail.com" 
+    message["From"] =  "example@example.com" 
 
     message["To"] = mailaddress
 

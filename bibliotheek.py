@@ -43,7 +43,7 @@ with open("files\data_lenen.txt", "r+") as file:
 def nieuwe_lid():
     while True:
         msg = "NIEUWE LID REGISTRATIE"
-        titel = "MEDIATHEEK HOGESCHOOL ROTTERDAM"
+        titel = "DE BIBILIOTHEEK"
         fieldNames = ["Voornaam", "Achternaam", "Email"]
         fieldValues = []
         fieldValues = multenterbox(msg, titel, fieldNames)
@@ -84,7 +84,7 @@ def nieuwe_lid():
 def nieuwe_boek():
     while True:
         msg = "NIEUWE BOEK REGISTRATIE"
-        titel = "MEDIATHEEK HOGESCHOOL ROTTERDAM"
+        titel = "DE BIBLIOTHEEK"
         fieldNames = ["Boek", "Schrijver"]
         fieldValues = ([])
         fieldValues = multenterbox(msg, titel, fieldNames)
@@ -362,7 +362,7 @@ def lid_zoeken():
 def mail(mailaddress, tekst,lener):
     message = MIMEMultipart()  
 
-    message["From"] =  "ict1crac@gmail.com" 
+    message["From"] =  "example@example.com" 
 
     message["To"] = mailaddress
 

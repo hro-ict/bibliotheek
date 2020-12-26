@@ -1,4 +1,4 @@
-Een python script voor bibliotheek automation
+Een python script voor bibliotheek automation (zie screenshoots)
 1. Boek lenen
 2. Boek inleveren
 3. Nieuwe lid registratie
